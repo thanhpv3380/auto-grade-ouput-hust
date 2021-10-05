@@ -1,0 +1,21 @@
+{
+  "name": "auto-grade-ouput-hust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/edge-selenium-tools": "^3.6.1",
+    "dotenv": "^10.0.0",
+    "edgedriver": "^4.17134.1",
+    "ms-chromium-edge-driver": "^0.4.3",
+    "selenium-webdriver": "^4.0.0-rc-2"
+  }
+}
